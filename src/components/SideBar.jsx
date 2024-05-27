@@ -11,7 +11,7 @@ const SideBar = () => {
         href="/"
         className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
       >
-        <span className="fs-2 portfolio-text">Portfolio</span>
+        <span className="fs-2 portfolio-text mt-5">Portfolio</span>
       </a>
       <hr />
       <ul className="nav nav-pills flex-column mb-auto">

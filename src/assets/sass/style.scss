@@ -9,6 +9,18 @@ body,
 html {
   font-family: "IBM Plex Sans", sans-serif;
 }
-.link{
+.link {
   text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+  .side-bar {
+    display: none !important;
+  }
+  .home-section,
+  .about-section {
+    text-align: center;
+    .connection-section {
+      justify-content: center;
+    }
+  }
 }
