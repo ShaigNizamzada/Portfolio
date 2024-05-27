@@ -1,0 +1,14 @@
+@import "home";
+@import "about";
+@import "contact";
+@import "portfolio";
+@import "skills";
+@import "sidebar";
+
+body,
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.link{
+  text-decoration: none;
+}
