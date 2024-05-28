@@ -10,6 +10,7 @@ body,
 html {
   font-family: "IBM Plex Sans", sans-serif;
   background-color: #100e23;
+  overflow-x: hidden !important;
 }
 .link {
   text-decoration: none;
