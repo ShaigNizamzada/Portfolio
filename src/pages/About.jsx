@@ -12,7 +12,7 @@ const About = () => {
   }, []);
   return (
     <div className="about-section" data-aos="fade-left">
-      <div className="about-section-top ps-4 pb-5 pt-3">
+      <div className="about-section-top ps-4 pb-5 pt-4 d-flex flex-column">
         <p className="nice-to">Nice to meet you!</p>
         <p className="welcome-to">WELCOME TO...</p>
       </div>
@@ -21,8 +21,8 @@ const About = () => {
           <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="about-section-middle-left text-center">
               <img src={profilphoto} alt="" width={320} />
-              <h3 className="p-4">SHAIG NIZAMZADA</h3>
-              <p className="developer-section mt-2 my-4">
+              <h3 className="py-2">SHAIG NIZAMZADA</h3>
+              <p className="developer-section mb-3">
                 {" "}
                 <span className="bold-text-section ">
                   Front-End Developer
@@ -30,7 +30,7 @@ const About = () => {
                 based in <span className="bold-text-section">Baku</span>
               </p>
               <a download="Shaig's Resume.pdf" href={resume}>
-                <button className="button-download button mb-5">
+                <button className="button-download button mb-3">
                   Download CV &nbsp; <i class="fa-solid fa-download"></i>
                 </button>
               </a>
@@ -58,7 +58,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <div className="details-section-second pb-4">
+                <div className="details-section-second pb-2">
                   <div className="row">
                     <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 pb-2">
                       {" "}

@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="row g-4">
         <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="contact-section-left px-2">
-            <div className="contact-section-left-top mb-4">
+            <div className="contact-section-left-top mb-4 mt-2">
               {" "}
               <h3 className="text-white">Contact</h3>
               <h2 className="text-white">REACH OUT ME</h2>
@@ -96,7 +96,7 @@ const Contact = () => {
         </div>
         <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="contact-section-right">
-            <h3>Contact Me!</h3>
+            <h3 className="ps-3">Contact Me!</h3>
             <form className="p-4" onSubmit={sendEmail} ref={form}>
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mt-2">

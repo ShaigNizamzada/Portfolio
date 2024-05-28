@@ -44,12 +44,12 @@ const Home = () => {
                   Work with me &nbsp; &#8599;
                 </button>
               </Link>
-              <div className="d-flex align-items-center connection-section mt-3">
-                <div className="phone-section mt-3">
+              <div className="d-flex align-items-center connection-section mt-2">
+                <div className="phone-section">
                   <i class="fa-solid fa-mobile-screen-button"></i>
                   <span> +994 55 388 58 29</span>
                 </div>
-                <div className="email-section ms-5 mt-3">
+                <div className="email-section ms-5">
                   <i class="fa-regular fa-envelope"></i>
                   <span> shaiqnizamzade@gmail.com</span>
                 </div>
