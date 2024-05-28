@@ -12,7 +12,7 @@ const About = () => {
   }, []);
   return (
     <div className="about-section" data-aos="fade-left">
-      <div className="about-section-top ps-4 py-5">
+      <div className="about-section-top ps-4 pb-5 pt-3">
         <p className="nice-to">Nice to meet you!</p>
         <p className="welcome-to">WELCOME TO...</p>
       </div>
@@ -22,7 +22,7 @@ const About = () => {
             <div className="about-section-middle-left text-center">
               <img src={profilphoto} alt="" width={320} />
               <h3 className="p-4">SHAIG NIZAMZADA</h3>
-              <p className="developer-section mt-2 my-5">
+              <p className="developer-section mt-2 my-4">
                 {" "}
                 <span className="bold-text-section ">
                   Front-End Developer
@@ -75,7 +75,7 @@ const About = () => {
               </div>
               <div className="skills-section">
                 <div className="row">
-                  <div className="col-10 mx-auto">
+                  <div className="col-9 mx-auto">
                     <div className="d-flex justify-content-center align-items-center flex-column">
                       <h5 className="skill-text text-center mb-4">My Skills</h5>
                       <div className="logos-section d-flex gap-4 flex-wrap align-items-center justify-content-center">
@@ -98,7 +98,7 @@ const About = () => {
                         <div className="icon d-flex flex-column align-items-center justify-content-center">
                           <SiRedux
                             style={{
-                              fontSize: "clamp(16px,7vw,32px",
+                              fontSize: "24px",
                               color: "#ffffff",
                             }}
                             className="redux"
@@ -108,7 +108,7 @@ const About = () => {
                         <div className="icon d-flex flex-column align-items-center justify-content-center">
                           <SiTypescript
                             style={{
-                              fontSize: "clamp(16px,7vw,32px",
+                              fontSize: "24px",
                               color: "#ffffff",
                             }}
                             className="ts"

@@ -74,9 +74,12 @@
         color: #ffffff;
       }
       .logos-section {
+        p{
+          font-size: 14px;
+        }
         .icon {
           i {
-            font-size: clamp(16px, 7vw, 32px);
+            font-size: clamp(12px, 7vw, 24px);
             color: #ffffff;
             transition: 0.4s ease;
           }
