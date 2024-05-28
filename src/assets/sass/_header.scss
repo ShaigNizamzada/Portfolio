@@ -8,14 +8,17 @@
   }
   .toggle-menu {
     .toggle-list {
+      position: absolute;
+      left: 0;
+      z-index: 99999;
+      background-color: #0e0c20;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       line-height: 4;
       width: 100%;
-      overflow: hidden;
-      transition: opacity 0.3s ease, max-height 0.3s ease;
+      height: 110vh !important;
       li {
         color: #ffffff;
         transition: 0.4s ease;
