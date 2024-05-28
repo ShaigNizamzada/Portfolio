@@ -76,9 +76,9 @@ const About = () => {
               <div className="skills-section">
                 <div className="row">
                   <div className="col-10 mx-auto">
-                    <h5 className="skill-text text-center mb-4">My Skills</h5>
-                    <div className="d-flex justify-content-center align-items-center">
-                      <div className="logos-section d-flex gap-5 flex-wrap align-items-center justify-content-center">
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <h5 className="skill-text text-center mb-4">My Skills</h5>
+                      <div className="logos-section d-flex gap-4 flex-wrap align-items-center justify-content-center">
                         <div className="icon d-flex flex-column align-items-center justify-content-center">
                           <i className="fa-brands html fa-html5"></i>
                           <p className="html">HTML5</p>

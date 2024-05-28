@@ -73,6 +73,13 @@ const SideBar = () => {
           </Link>
         </div>
       </div>
+      <hr style={{color:"#ffffff"}}/>
+      <div className="rights mt-2">
+        <div className="d-flex align-items-center justify-content-between">
+          <p className="text-white">All Rights Reserved</p>
+          <p className="text-white">N.Shaig &#169;</p>
+        </div>
+      </div>
     </div>
   );
 };

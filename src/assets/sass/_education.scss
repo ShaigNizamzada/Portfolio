@@ -1,6 +1,30 @@
 .education-section {
-  background-color: #5e2452;
+  background: linear-gradient(270deg, #441b45 5.74%, #af2676 92.05%);
+  padding-top: 146px;
+  padding-left: 24px;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
+  .education-section-left {
+    margin: 64px 0;
+    width: 100%;
+
+    h3 {
+      font-size: clamp(18px, 10vw, 36px);
+    }
+    h1 {
+      font-size: clamp(32px, 10vw, 64px);
+    }
+    p {
+      font-size: clamp(12px, 7vw, 24px);
+      line-height: 2;
+    }
+  }
+  .education-section-right {
+    color: #ffffff;
+    h2 {
+      font-size: clamp(16px, 10vw, 32px);
+      font-weight: 700;
+    }
+  }
 }

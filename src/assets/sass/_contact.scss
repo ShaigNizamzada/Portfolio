@@ -2,5 +2,88 @@
   background-color: #100e23;
   width: 100%;
   height: 100vh;
+  padding-top: 116px;
   overflow-x: hidden;
+  .contact-section-left {
+    .contact-section-left-top {
+      h3 {
+        font-size: clamp(10px, 7vw, 20px);
+        font-weight: 500;
+      }
+      h2 {
+        font-size: clamp(24px, 7vw, 48px);
+        font-weight: 700;
+      }
+    }
+    .contact-section-left-bottom {
+      .contact-box {
+        border: 1px solid rgba(104, 104, 104, 0.326);
+        padding: 24px;
+        .icon-section {
+          width: 60px;
+          height: 60px;
+          padding: 36px;
+          background: linear-gradient(270.16deg, #441b45 5.74%, #af2676 92.05%);
+          i {
+            font-size: clamp(12px, 7vw, 32px);
+            color: #ffffff;
+          }
+        }
+        .text-section {
+          h3 {
+            font-size: clamp(9px, 7vw, 18px);
+            font-weight: 700;
+          }
+          p,
+          span {
+            color: #a4a3ab;
+          }
+        }
+      }
+    }
+  }
+  .contact-section-right {
+    padding: 24px;
+    background: linear-gradient(270.16deg, #441b45 5.74%, #af2676 92.05%);
+    h3 {
+      font-size: clamp(20px, 10vw, 40px);
+      color: #ffffff;
+    }
+    form {
+      label {
+        color: #ffffff;
+        font-size: clamp(12px, 7vw, 12px);
+        font-weight: 500;
+      }
+      input,
+      textarea {
+        color: #ffffff;
+        background: transparent;
+        outline: none;
+        border: 1px solid #a4a3ab;
+        box-shadow: none;
+        margin-top: 12px;
+        padding: 12px;
+        resize: none;
+      }
+      ::placeholder {
+        color: #bfbec4;
+      }
+      .send-button {
+        background-color: #0D0B1B;
+        color: #ffffff;
+        outline: none;
+        border: none;
+        padding: 15px 35px;
+        border-radius: 0;
+        width: 100%;
+        transition: 0.4s ease;
+        font-size: clamp(16px, 7vw, 16px);
+      }
+      .send-button:hover{
+        color: #0D0B1B;
+        background-color: #ffffff;
+      }
+    }
+  }
 }
