@@ -2,12 +2,13 @@
 @import "about";
 @import "contact";
 @import "portfolio";
-@import "skills";
+@import "education";
 @import "sidebar";
 
 body,
 html {
   font-family: "IBM Plex Sans", sans-serif;
+  background-color: #100e23;
 }
 .link {
   text-decoration: none;

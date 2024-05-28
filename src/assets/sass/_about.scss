@@ -70,6 +70,47 @@
         font-size: clamp(9px, 7vw, 18px);
         font-weight: 700;
       }
+      .skill-text {
+        font-size: clamp(12px, 7vw, 24px);
+        color: #ffffff;
+      }
+      .logos-section {
+        .icon {
+          i {
+            font-size: clamp(16px, 7vw, 32px);
+            color: #ffffff;
+            transition: 0.4s ease;
+          }
+          .redux,
+          .ts {
+            transition: 0.4s ease;
+          }
+        }
+        .html:hover {
+          color: #ff5733;
+        }
+        .css:hover {
+          color: #304bc1;
+        }
+        .js:hover {
+          color: #f0db4f;
+        }
+        .react:hover {
+          color: #61dbfb;
+        }
+        .redux:hover {
+          color: #764abc !important;
+        }
+        .ts:hover {
+          color: #007acc !important;
+        }
+        .bootstrap:hover {
+          color: #563d7c;
+        }
+        .sass:hover {
+          color: #cc6699;
+        }
+      }
     }
   }
 }

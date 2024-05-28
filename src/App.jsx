@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import Skills from "./pages/Skills";
 import SideBar from "./components/SideBar";
+import Education from "./pages/Education";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/portfolio" element={<Portfolio />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/education" element={<Education />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

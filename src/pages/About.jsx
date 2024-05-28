@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import profilphoto from "../assets/photo/photo.png";
 // import { Link } from "react-router-dom";
 import resume from "../assets/pdf/Shaig's-Resume.pdf";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { SiRedux } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 const About = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="about-section">
+    <div className="about-section" data-aos="fade-left">
       <div className="about-section-top ps-4 py-5">
         <p className="nice-to">Nice to meet you!</p>
         <p className="welcome-to">WELCOME TO...</p>
@@ -66,12 +73,64 @@ const About = () => {
                 </div>
                 <hr />
               </div>
-              <div className="row">
-                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <span>0+</span>
-                  Years Experience
+              <div className="skills-section">
+                <div className="row">
+                  <div className="col-10 mx-auto">
+                    <h5 className="skill-text text-center mb-4">My Skills</h5>
+                    <div className="d-flex justify-content-center align-items-center">
+                      <div className="logos-section d-flex gap-5 flex-wrap align-items-center justify-content-center">
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands html fa-html5"></i>
+                          <p className="html">HTML5</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands css fa-css3-alt"></i>
+                          <p>CSS3</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands js fa-js"></i>
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands react fa-react"></i>
+                          <p>React</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <SiRedux
+                            style={{
+                              fontSize: "clamp(16px,7vw,32px",
+                              color: "#ffffff",
+                            }}
+                            className="redux"
+                          />
+                          <p>Redux</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <SiTypescript
+                            style={{
+                              fontSize: "clamp(16px,7vw,32px",
+                              color: "#ffffff",
+                            }}
+                            className="ts"
+                          />
+                          <p>TypeScript</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands bootstrap fa-bootstrap"></i>
+                          <p>BootStrap5</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands sass fa-sass"></i>
+                          <p>SASS</p>
+                        </div>
+                        <div className="icon d-flex flex-column align-items-center justify-content-center">
+                          <i className="fa-brands github fa-github"></i>
+                          <p>GitHub</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"></div>
               </div>
             </div>
           </div>

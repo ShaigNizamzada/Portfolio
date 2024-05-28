@@ -26,8 +26,8 @@ const SideBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/skills" className="nav-link">
-            Skills
+          <NavLink to="/education" className="nav-link">
+            Education
           </NavLink>
         </li>
         <li>
