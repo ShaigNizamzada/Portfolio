@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import projectphoto from "../assets/photo/motta-project.png";
-import projectphoto2 from "../assets/photo/blackwhite-project.png";
+import mottagaming from "../assets/photo/motta-project.png";
+import blackwhite from "../assets/photo/blackwhite-project.png";
+import todolist from "../assets/photo/todolist-project.png";
 import { Link } from "react-router-dom";
 const Portfolio = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Portfolio = () => {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 {" "}
                 <div className="photo-section mb-3">
-                  <img src={projectphoto} alt="" />
+                  <img src={mottagaming} alt="" />
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
@@ -47,7 +48,7 @@ const Portfolio = () => {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 {" "}
                 <div className="photo-section mb-3">
-                  <img src={projectphoto2} alt="" />
+                  <img src={blackwhite} alt="" />
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
@@ -60,6 +61,32 @@ const Portfolio = () => {
                   <Link
                     className="link fs-1 text-white"
                     to="https://black-white-notebook-website.vercel.app/"
+                    target="_blank"
+                  >
+                    &#8599;
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div className="row">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                {" "}
+                <div className="photo-section mb-3">
+                  <img src={todolist} alt="" />
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
+                {" "}
+                <div className="text-section-top">
+                  <h3>WebApp</h3>
+                  <h2>To Do List</h2>
+                </div>
+                <div className="link-section pb-1">
+                  <Link
+                    className="link fs-1 text-white"
+                    to="https://shaignizamzada.github.io/To-Do-List/"
                     target="_blank"
                   >
                     &#8599;

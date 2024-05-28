@@ -31,9 +31,10 @@
         margin: 0 0 10px;
       }
       .developer-section {
+        color: #ffffff;
+        font-size: clamp(22px, 10vw, 22px);
       }
-      color: #ffffff;
-      font-size: clamp(11px, 4vw, 22px);
+
       .bold-text-section {
         font-weight: 800;
       }
@@ -61,9 +62,12 @@
     }
     .about-section-middle-right {
       p {
-        font-size: clamp(12px, 5vw, 20px);
+        font-size: clamp(16px, 3vw, 20px);
         color: #ffffff;
         line-height: 1.7;
+      }
+      span {
+        font-size: clamp(16px, 3vw, 20px);
       }
       .details-section {
         color: #ffffff;

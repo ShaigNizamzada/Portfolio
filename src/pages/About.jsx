@@ -81,7 +81,7 @@ const About = () => {
                       <div className="logos-section d-flex gap-4 flex-wrap align-items-center justify-content-center">
                         <div className="icon d-flex flex-column align-items-center justify-content-center">
                           <i className="fa-brands html fa-html5"></i>
-                          <p className="html">HTML5</p>
+                          <p>HTML5</p>
                         </div>
                         <div className="icon d-flex flex-column align-items-center justify-content-center">
                           <i className="fa-brands css fa-css3-alt"></i>
