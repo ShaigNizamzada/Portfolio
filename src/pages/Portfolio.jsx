@@ -26,7 +26,7 @@ const Portfolio = () => {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
                 {" "}
                 <div className="text-section-top">
-                  <h3>Web Site</h3>
+                  <h3>WebSite</h3>
                   <h2>Motta Gaming</h2>
                 </div>
                 <div className="link-section pb-1">
@@ -52,47 +52,7 @@ const Portfolio = () => {
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
                 {" "}
                 <div className="text-section-top">
-                  <h3>Web Site</h3>
-                  <h2>Motta Gaming</h2>
-                </div>
-                <div className="link-section pb-1">
-                  <Link className="link fs-1 text-white">&#8599;</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                {" "}
-                <div className="photo-section mb-3">
-                  <img src={projectphoto} alt="" />
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
-                {" "}
-                <div className="text-section-top">
-                  <h3>Web Site</h3>
-                  <h2>Motta Gaming</h2>
-                </div>
-                <div className="link-section pb-1">
-                  <Link className="link fs-1 text-white">&#8599;</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                {" "}
-                <div className="photo-section mb-3">
-                  <img src={projectphoto} alt="" />
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
-                {" "}
-                <div className="text-section-top">
-                  <h3>Web Site</h3>
+                  <h3>WebSite</h3>
                   <h2>Motta Gaming</h2>
                 </div>
                 <div className="link-section pb-1">
