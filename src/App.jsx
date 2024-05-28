@@ -6,10 +6,12 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import SideBar from "./components/SideBar";
 import Education from "./pages/Education";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <BrowserRouter>
+        <Header />
       <div className="d-flex">
         <SideBar />
         <Routes>

@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div className="contact-section" data-aos="fade-left">
       <div className="row g-4">
-        <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="contact-section-left px-2">
             <div className="contact-section-left-top mb-4">
               {" "}
@@ -94,7 +94,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="contact-section-right">
             <h3>Contact Me!</h3>
             <form className="p-4" onSubmit={sendEmail} ref={form}>

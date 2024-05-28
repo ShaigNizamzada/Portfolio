@@ -8,7 +8,7 @@ const Education = () => {
   return (
     <div className="education-section" data-aos="fade-left">
       <div className="row">
-        <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+        <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="education-section-left">
             <h3 className="text-white">Education</h3>
             <h1 className="text-white">MY EDUCATION</h1>
@@ -19,7 +19,7 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+        <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="education-section-right me-3">
             <div className="first-education">
               <div className="d-flex justify-content-between align-items-center">

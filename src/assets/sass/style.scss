@@ -4,6 +4,7 @@
 @import "portfolio";
 @import "education";
 @import "sidebar";
+@import "header";
 
 body,
 html {
@@ -13,7 +14,7 @@ html {
 .link {
   text-decoration: none;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .side-bar {
     display: none !important;
   }
@@ -23,6 +24,11 @@ html {
     .connection-section {
       justify-content: center;
     }
+  }
+}
+@media screen and (max-width: 1250px) {
+  .home-profile-photo {
+    display: none;
   }
 }
 .swal-button {

@@ -1,6 +1,13 @@
 .side-bar {
   height: 100vh !important;
   background-color: #0d0b1b;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  .toggle-menu {
+    i {
+      cursor: pointer;
+    }
+  }
   .portfolio-text {
     opacity: 1;
     padding: 10px 60px;

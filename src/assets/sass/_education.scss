@@ -5,6 +5,7 @@
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
+  overflow-y: auto;
   .education-section-left {
     margin: 64px 0;
     width: 100%;
@@ -28,3 +29,13 @@
     }
   }
 }
+.education-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Hide scrollbar for other browsers */
+// .education-section {
+//   -ms-overflow-style: none; /* Internet Explorer 10+ */
+//   scrollbar-width: none; /* Firefox */
+// }
