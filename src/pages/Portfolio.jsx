@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import mottagaming from "../assets/photo/motta-project.png";
 import blackwhite from "../assets/photo/blackwhite-project.png";
 import todolist from "../assets/photo/todolist-project.png";
+import weatherapp from "../assets/photo/weatherapp-project.png";
 import { Link } from "react-router-dom";
 const Portfolio = () => {
   useEffect(() => {
@@ -16,7 +17,7 @@ const Portfolio = () => {
         <h2>RECENT PROJECTS</h2>
       </div>
       <div className="portfolio-bottom-section px-2">
-        <div className="row mt-5 g-5">
+        <div className="row mt-5 g-5 mx-auto">
           <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -87,6 +88,32 @@ const Portfolio = () => {
                   <Link
                     className="link fs-1 text-white"
                     to="https://shaignizamzada.github.io/To-Do-List/"
+                    target="_blank"
+                  >
+                    &#8599;
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div className="row">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                {" "}
+                <div className="photo-section mb-3">
+                  <img src={weatherapp} alt="" />
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-between">
+                {" "}
+                <div className="text-section-top">
+                  <h3>WebApp</h3>
+                  <h2>Weather App</h2>
+                </div>
+                <div className="link-section pb-1">
+                  <Link
+                    to="https://github.com/ShaigNizamzada/Weather-App"
+                    className="link fs-1 text-white"
                     target="_blank"
                   >
                     &#8599;
