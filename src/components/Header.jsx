@@ -16,30 +16,30 @@ const Header = () => {
           onClick={toggleMenu}
           class="fa-solid fa-bars-staggered text-light fs-3"
         ></i>
+        {isOpen && (
+          <div className="toggle-menu">
+            {" "}
+            <ul className="toggle-list">
+              <Link to="/" className="link" onClick={closeMenu}>
+                <li className="nav-link">Home</li>
+              </Link>
+              <Link to="/about" className="link" onClick={closeMenu}>
+                <li className="nav-link">About</li>
+              </Link>
+              <Link to="/education" className="link" onClick={closeMenu}>
+                {" "}
+                <li className="nav-link">Education</li>
+              </Link>
+              <Link to="/portfolio" className="link" onClick={closeMenu}>
+                <li className="nav-link">Portfolio</li>
+              </Link>
+              <Link to="/contact" className="link" onClick={closeMenu}>
+                <li className="nav-link">Contact</li>
+              </Link>
+            </ul>
+          </div>
+        )}
       </div>
-      {isOpen && (
-        <div className="toggle-menu">
-          {" "}
-          <ul className="toggle-list">
-            <Link to="/" className="link" onClick={closeMenu}>
-              <li className="nav-link">Home</li>
-            </Link>
-            <Link to="/about" className="link" onClick={closeMenu}>
-              <li className="nav-link">About</li>
-            </Link>
-            <Link to="/education" className="link" onClick={closeMenu}>
-              {" "}
-              <li className="nav-link">Education</li>
-            </Link>
-            <Link to="/portfolio" className="link" onClick={closeMenu}>
-              <li className="nav-link">Portfolio</li>
-            </Link>
-            <Link to="/contact" className="link" onClick={closeMenu}>
-              <li className="nav-link">Contact</li>
-            </Link>
-          </ul>
-        </div>
-      )}
     </div>
   );
 };

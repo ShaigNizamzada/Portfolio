@@ -39,7 +39,7 @@ const Home = () => {
               </p>
               <Link to="/contact">
                 {" "}
-                <button className="button-work button mb-5 mt-3">
+                <button className="button-work button mb-5 mt-1">
                   Work with me &nbsp; &#8599;
                 </button>
               </Link>
