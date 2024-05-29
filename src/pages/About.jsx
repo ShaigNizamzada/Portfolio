@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import profilphoto from "../assets/photo/photo.png";
+import profilephoto2 from "../assets/photo/profilephoto2.png";
 // import { Link } from "react-router-dom";
 import resume from "../assets/pdf/Shaig's-Resume.pdf";
 import Aos from "aos";
@@ -12,7 +12,7 @@ const About = () => {
   }, []);
   return (
     <div className="about-section" data-aos="fade-left">
-      <div className="about-section-top ps-4 pb-5 pt-4 d-flex flex-column">
+      <div className="about-section-top ps-4 pb-1 pt-4 d-flex flex-column">
         <p className="nice-to">Nice to meet you!</p>
         <p className="welcome-to">WELCOME TO...</p>
       </div>
@@ -20,7 +20,7 @@ const About = () => {
         <div className="row">
           <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="about-section-middle-left text-center">
-              <img src={profilphoto} alt="" width={320} />
+              <img src={profilephoto2} alt="" width={230} className="mb-2"  />
               <h3 className="py-2">SHAIG NIZAMZADA</h3>
               <p className="developer-section mb-3">
                 {" "}
@@ -37,7 +37,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
-            <div className="about-section-middle-right container">
+            <div className="about-section-middle-right container pt-5">
               <p>
                 Born in 1996,Baku. I gratuated from Marmara University
                 environmental engineering department. But thanks to my passion

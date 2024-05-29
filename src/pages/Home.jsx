@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import profilphoto from "../assets/photo/photo.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
@@ -57,8 +56,12 @@ const Home = () => {
             </div>
           </div>
           <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-            <div className="home-right-section pt-5 home-profile-photo">
-              <img src={profilphoto} alt="" width={500} />
+            <div className="home-right-section pt-5 home-profile-photo ms-5">
+              <iframe
+                src="https://lottie.host/embed/7354de40-04cd-43d9-8fa6-8a5117f81686/MgKmg2Js3d.json"
+                width={500}
+                height={400}
+              ></iframe>
             </div>
           </div>
         </div>
